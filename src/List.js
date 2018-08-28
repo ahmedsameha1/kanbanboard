@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./Card";
+import PropTypes from "prop-types";
 
 class List extends Component {
     render() {
@@ -20,5 +21,11 @@ class List extends Component {
         );
     }
 }
+
+List.propTypes = {
+    title: PropTypes.string.isRequired,
+    cards: PropTypes.arrayOf(PropTypes.object)
+};
+
 
 export default List;

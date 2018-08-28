@@ -36,6 +36,14 @@ tasks: [
 }
 ]
 },
+/*    {
+    id: 3,
+    title: "Read the Book hgoheo hgowehoh seghwoeghwo hogweho hoghohwg hoghohg hoohgwoe gwheo0",
+    description: "I should read the whole book",
+    color: "#BD8D31",
+    status: "done",
+    tasks: [],
+},*/
 ];
 
 ReactDom.render(<KanbanBoard cards={cardsList} />, document.getElementById("root"));
