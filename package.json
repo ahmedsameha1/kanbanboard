@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "immutability-helper": "^2.7.1",
     "marked": "^0.5.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
